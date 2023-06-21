@@ -1,0 +1,41 @@
+
+
+<div class="zuruckbutton">
+  <a href="index.html" target="_self">Zuruck zur hauptseite</a>
+</div>
+
+
+
+
+<div class="box addKunde">
+    <h2>Kunde hinzufugen</h2>
+    <form class="input-forms">
+          <label for="Name">Name:</label>
+          <input type="text" id="Name" name="Name" required>
+      
+          <label for="Nachname">Nachname:</label>
+          <input type="text" id="Nachname" name="Nachname" required>
+      
+          <label for="BurgerID">Burger ID:</label>
+          <input type="number" id="BurgerID" name="BurgerID" minlength="11" maxlength="11" required>
+      
+          <label for="Telefonnummer">Telefon Nummer:</label>
+          <input type="tel" id="Telefonnummer" name="Telefonnummer" minlength="10" required>
+
+        <label for="Status">Status:</label>
+        <select id="Status" name="Status">
+          <option value="3">Operation erfolgt</option>
+          <option value="2">Termin ausgemacht</option>
+          <option value="1">Vorbesprechung</option>
+        </select>
+        
+          <label for="Anmerkungen">Anmerkungen:</label>
+          <textarea id="Anmerkungen" name="Anmerkungen"></textarea>
+      
+          <button type="submit">Kunde hinzufugen</button>
+      </form>
+      
+  </div>
+
+  <script src="Kunde_update.js"></script>
+  <link rel="stylesheet" href="StyleSheet1.css"/> 

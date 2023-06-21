@@ -1,0 +1,46 @@
+<div class="zuruckbutton">
+  <a href="index.html" target="_self">Zuruck zur hauptseite</a>
+</div>
+
+
+
+
+<div class="box showTermin">
+    <h2>Termin anschauen</h2>
+
+    <form class="input-forms">
+
+      <label for="r_terminno">Termin id:</label>
+      <input type="text" id="r_terminno" name="r_terminno" required>
+      <button type="button" onclick="getTerminByID()">Termin informationen anzeigen</button>
+  
+        <label for="r_zimmer_id">Zimmer ID: </label>
+        <input type="text" id="r_zimmer_id" name="r_zimmer_id" required>
+    
+        <label for="r_kunde_id">Patient ID:</label>
+        <input type="text" id="r_kunde_id" name="r_kunde_id" required>
+    
+        <label for="r_op_datum">Datum:</label>
+        <input type="datetime-local" id="r_op_datum" name="r_op_datum" required>
+    
+        <label for="r_arzt_id">Arzt ID:</label>
+        <input type="text" id="r_arzt_id" name="r_arzt_id" required>
+    
+        <label for="r_status">Status:</label>
+        <select id="r_status" name="r_status" required>
+          <option value="" disabled selected>Bitte waehlen Sie aus</option>
+          <option value="1">Vorbesprechung</option>
+          <option value="2">Termin ausgemacht</option>
+          <option value="3">Operation erfolgt</option>
+        </select>
+    
+
+      <button type="button" id="update-termin-button" >Aktualisieren</button>
+
+
+    </form>
+
+    </div>
+
+    <script src="Termin_update.js"></script> 
+    <link rel="stylesheet" href="StyleSheet1.css"/> 

@@ -1,0 +1,38 @@
+<div class="zuruckbutton">
+  <a href="index.html"target="_self">Zuruck zur hauptseite</a>
+</div>
+
+
+
+<div class="box addTermin">
+    <h2>Termin hinzufugen</h2>
+    <form class="input-forms">
+          <label for="Zimmer_ID">Zimmer ID: </label>
+          <input type="text" id="Zimmer_ID" name="Zimmer_ID" required>
+      
+          <label for="Kunde_id">Kunde ID:</label>
+          <input type="text" id="Kunde_ID" name="Kunde_ID" required>
+      
+          <label for="op_datum">Datum:</label>
+          <input type="datetime-local" id="op_datum" name="op_datum" required>
+      
+          <label for="Arzt_id">Arzt ID:</label>
+          <input type="text" id="Arzt_id" name="Arzt_id" required>
+      
+          <label for="Status">TYPE:</label>
+          <select id="Status" name="Status" required>
+            <option value="" disabled selected>Bitte wahlen Sie aus</option>
+            <option value="1">Vorbesprechung</option>
+            <option value="2">Termin ausgemacht</option>
+            <option value="3">Operation erfolgt</option>
+          </select>
+      
+          <button type="submit">Termin hinzufugen</button>
+      </form>
+      
+      
+</div>
+
+
+<script src="Termin_update.js"></script> 
+<link rel="stylesheet" href="StyleSheet1.css"/> 
